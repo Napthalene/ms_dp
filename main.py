@@ -168,7 +168,7 @@ n_output_layers = 2
 # Inicializacia Modelu -------------------------------------------------------------------------------------------------
 model_type = "VUF"                  # Trenovanie bude na VUF alebo pomerne tlmenie
 learning_rate = 0.001              # Learning rate
-h1, h2, h3, h4 = 624, 312, 156, 78           # Velkost jednotlivych vrstiev v modeli NN
+h1, h2, h3, h4 = 624, 312, 156, 78          # Velkost jednotlivych vrstiev v modeli NN
 layers_num = 5                      # Celkovy pocet vrstiev
 # Nastavenie ukladania
 model_hyperparameters = f"model_{str(learning_rate).replace('.', 'dot')}lr_{epochs}e_{num_of_data_in_batch}b_{end_data}d"
